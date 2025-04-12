@@ -9,7 +9,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin: '*', // or whatever port your React app runs on
+    origin: 'https://bm-front-coral.vercel.app', // or whatever port your React app runs on
     credentials: true
   }));
 app.use(express.json());
